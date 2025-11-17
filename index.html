@@ -4,43 +4,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:wght@100&display=swap" rel="stylesheet" />
     <title>Quotations app</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
+<div id="header">
     <h1>Mes citations</h1>
 
     <h2>Gestionnaire de citations en ligne</h2>
 
     <h3 id="count">0 citation</h3>
+</div>
 
     <hr>
     </hr>
+    
+    <div id="container">
+        <form id="quote-form">
 
-    <form id="quote-form">
+            <p><label for="quote-text">Citation :</label>
+                <input type="text" id="quote-text">
+            </p>
 
-        <p><label for="quote-text">Citation :</label>
-        <input type="text" id="quote-text"></p>
+            <p><label for="quote-author">Auteur.ice :</label>
+                <input type="text" id="quote-author">
+            </p>
 
-        <p><label for="quote-author">Auteur.ice :</label>
-        <input type="text" id="quote-author"></p>
+            <button type="submit">Ajouter</button>
 
-        <button type="submit">Ajouter</button>
+        </form>
 
-    </form>
+        <div id="quote-list">
 
-<div id="quote-list">
+            <div class="quote">
+                <p class="text">"On ne naît pas femme, on le devient"</p>
+                <p class="author">Simone de Beauvoir</p>
 
-    <div class="quote">
-<p class="text">"On ne naît pas femme, on le devient</p>
-<p class="author">Simone de Beauvoir</p>
+            </div>
+        </div>
+
 
     </div>
-
-
-</div>
 
 </body>
 

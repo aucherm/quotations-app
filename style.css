@@ -1,0 +1,92 @@
+body {
+    font-family: 'Sour Gummy', sans-serif;
+    background-image: url("pictures/back.png");
+    background-size: cover;
+    margin: 0;
+    padding: 20px;
+    color: black;
+    font-size: 1.2rem;
+}
+
+#header {
+    background-color: #282B59;
+    padding: 20px;
+    margin: 0;
+    color: white;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    width: 100%;
+}
+
+form {
+    width: 80%;
+    height: 300px;
+    margin: 20px;
+  background: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+
+}
+
+
+form input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 1.5rem;
+}
+
+form button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background: #282B59;
+    color: white;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+form button:hover {
+    background: #F5B18E;
+}
+
+
+.quote {
+    width: 100%;
+    background: white;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 2px solid #282B59;
+}
+
+.quote .text {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin: 0 0 8px 0;
+}
+
+.quote .author {
+    text-align: right;
+}
+
+#quote-list {
+    width: 80%;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
