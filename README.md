@@ -29,15 +29,16 @@ moderne
 responsive
 
 
-🛠️ Technologies utilisées
-HTML5
-CSS3
-JavaScript (Vanilla JS)
-LocalStorage API
-Aucune bibliothèque externe n’est nécessaire.
+## 🛠️ Technologies utilisées
+
+- HTML5  
+- CSS3  
+- JavaScript (Vanilla JS)  
+- LocalStorage API  
+- Aucune bibliothèque externe n’est nécessaire.
 
 
-📁 Structure des fichiers
+##📁 Structure des fichiers
 .
 ├── index.html
 ├── style.css
