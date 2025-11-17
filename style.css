@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     color: black;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 #header {
@@ -33,7 +33,7 @@ form {
     width: 80%;
     height: 300px;
     margin: 20px;
-  background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.8);
     padding: 40px;
     border-radius: 10px;
 
@@ -44,7 +44,7 @@ form input {
     width: 100%;
     padding: 10px;
     border-radius: 6px;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 form button {
@@ -54,7 +54,7 @@ form button {
     background: #282B59;
     color: white;
     border-radius: 6px;
-    font-size: 1.1rem;
+    font-size: 1rem;
     cursor: pointer;
     transition: 0.2s;
 }
@@ -75,7 +75,7 @@ form button:hover {
 
 .quote .text {
     font-style: italic;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin: 0 0 8px 0;
 }
 
