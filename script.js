@@ -1,4 +1,4 @@
-let quoteCount = 1;
+let quoteCount = 0;
 
 const form = document.getElementById('quote-form');
 
@@ -29,6 +29,8 @@ function addQuote(quote, author) {
 
     const quoteList = document.getElementById('quote-list');
     quoteList.appendChild(divQuote);
+
+    quoteCount += 1;
+    document.getElementById('count').innerHTML = quoteCount + " citation.s";
 }
 
-console.log(text, author);
